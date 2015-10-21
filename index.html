@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="basics.js"></script>
+    <title>Geo-Sorted Task List</title>
+  </head>
+  <body>
+    <button type="button" onClick="get_location()"> Where Yo Ass Is At? </button>
+    <form name="entry-fields">
+      <p>Title</p>
+      <input type="text" name="Title" value="HackNC"></input>
+      <p>Location</p>
+      <input type="text" name="Location" value="Sitterson Hall"></input>
+      <p>Details</p>
+      <input type="text" name="Details" value="Code."></input>
+    </form>
+    <button name="add" id="add_button">Add Item</button>
+    <button name="geo" id="geo_button">GeoSort</button>
+    <div>
+      <ol id="mlist">
+        <div class="item">
+          <li>
+            <p class="iTitle">Get Refund Check</p>
+            <p class="iLocation">SASB (35.904458, -79.044765)</p>
+            <p class="iDetails">Get your $$$ Back.</p>
+          </li>
+          <input type="checkbox" name="done" id="done_button"></input>
+          <button type="button" name="remove" id="remove_button">Remove</button>
+        </div>
+      </ol>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+<!--         <div class="item"><li>Sell textbook @ Wendys - Wendys @ Student Union (35.910255, -79.047548)<button type="button" name="remove">Remove</button></li></div>
+        <div class="item"><li>Drop a Class - Steele Building (35.911561, -79.050377)<button type="button" name="remove">Remove</button></li></div>
+        <div class="item"><li>Grab textbook from lab - Sitterson (35.909526, -79.053240)<button type="button" name="remove">Remove</button></li></div>
+        <div class="item"><li>Play basketball - Cobb Courts (35.912368, -79.046606)<button type="button" name="remove">Remove</button></li></div>
+ -->
