@@ -2,20 +2,18 @@
 <br>
 A spin on the to-do list application, rearranges itself based on which items in the list are closest to your geographic location. 
 <br>
-Short-term goals:
+<b>Short-term goals:</b>
 <br>
 -Figure out how to make it asynchronous<br>
 -Add in error-handling<br>
 -Add in tests<br>
 -Check to see if coding style is correct for Javascript<br>
--Mess around with the navigator object, see if there's a way to pass in masterList to the acceptPos function without having to set it as the default argument in the constructor. 
-<br>
-Front-End Design:
+-Mess around with the navigator object, see if there's a way to pass in masterList to the acceptPos function without having to set it as the default argument in the constructor.<br>
+<b>Front-End Design:</b>
 <br>
 -Change the layout of the list items, the buttons.<br>
 -Some kind of rearrangement animation for the list when it's sorting?<br>
-<br>
-Longer-term goals:
+<b>Longer-term goals:</b>
 <br>
 -Use better searching and sorting algorithms<br>
 -Export and import lists as json.<br>
