@@ -4,3 +4,7 @@ form p{
 form input{
   margin-left: 400px;
 }
+
+.finishedItem{
+  color: blue;
+}
